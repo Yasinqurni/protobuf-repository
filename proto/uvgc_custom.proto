@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./pb";
+
+message UvgcCustomData {
+    string voucher_id = 1;
+    string voucher_url = 2;
+    string voucher_code = 3;
+    float amount = 4;
+}
+message UvgcCustomRequest {
+    uint64 stock_in_uvgc_id = 1;
+    string image_background_url = 2;
+    string color_background = 3;
+    string recipient = 4;
+    repeated UvgcCustomData data = 5;
+}
+
+message UvgcCustomResponse {
+    string message = 1;
+}
+
+service UVGCCustomHandler {
+  rpc GenerateUvgcCustom (UvgcCustomRequest) returns (UvgcCustomResponse);
+}
