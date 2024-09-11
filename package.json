@@ -4,7 +4,7 @@
     "grpc-tools": "^1.12.4"
   },
   "name": "protobuf-repository",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
