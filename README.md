@@ -19,7 +19,7 @@ import "github.com/Yasinqurni/protobuf-repository/go/pb"
 ### Node.js
 To use the generated protobuf code in Node.js, you can install it using npm:
 ```bash
-npm install github.com/Yasinqurni/protobuf-repository
+npm install protobuf-repository
 ```
 
 After installation, you can import the generated protobuf code in your Node.js project like this:

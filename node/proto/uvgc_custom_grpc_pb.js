@@ -1,7 +1,7 @@
 // GENERATED CODE -- DO NOT EDIT!
 
 'use strict';
-var grpc = require('grpc');
+const grpc = require('@grpc/grpc-js');
 var proto_uvgc_custom_pb = require('../proto/uvgc_custom_pb.js');
 
 function serialize_UvgcCustomRequest(arg) {

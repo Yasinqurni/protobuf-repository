@@ -1,7 +1,7 @@
-const uvgcCustomService = require('./node/proto/uvgc_custom_grpc_pb');
-const uvgcCustomEntities = require('./node/proto/uvgc_custom_pb');
+const protoLoader = require('./node/proto/uvgc_custom_grpc_pb');
+const messages = require('./node/proto/uvgc_custom_pb');
 
 module.exports = {
-    uvgcCustomService,
-    uvgcCustomEntities
+    protoLoader,
+    messages
 }
